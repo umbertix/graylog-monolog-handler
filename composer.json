@@ -15,8 +15,8 @@
         "monolog/monolog": "^1.17"
     },
     "autoload": {
-        "psr-0": {
-            "Graylogger": "src"
+        "psr-4": {
+            "GraylogMonolog\\": "src/"
         }
     }
 }
