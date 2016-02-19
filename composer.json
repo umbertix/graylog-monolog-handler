@@ -1,0 +1,22 @@
+{
+    "name": "umbertix/graylog-monolog-handler",
+    "description": "Log handler for Graylog in Laravel 5.1",
+    "keywords": ["log", "logging", "monolog", "graylog", "laravel", "symfony"],
+    "homepage": "https://github.com/umbertix/graylog-monolog-handler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Umbert Pensato",
+            "email": "umbertix@gmail.com"
+        }
+    ],
+    "require": {
+        "graylog2/gelf-php": "^1.4",
+        "monolog/monolog": "^1.17"
+    },
+    "autoload": {
+        "psr-0": {
+            "Graylogger": "src"
+        }
+    }
+}
