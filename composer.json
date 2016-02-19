@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GraylogMonolog\\Handler\\": "src/Handler"
+            "GraylogMonolog\\" : "src/"
         }
     }
 }
